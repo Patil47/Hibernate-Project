@@ -15,7 +15,6 @@ public class View {
 
 	// Main class representing the console-based view
 	public static void main(String[] args) {
-		System.out.println("Welcome to Bank Management");
 		// Scanner for user input
 		Scanner myInput = new Scanner(System.in);
 		// Controller instance for handling business logic

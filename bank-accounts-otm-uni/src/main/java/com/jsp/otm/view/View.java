@@ -1,6 +1,9 @@
 package com.jsp.otm.view;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.InputMismatchException;
+import java.util.List;
+import java.util.Scanner;
 
 import javax.persistence.EntityExistsException;
 
@@ -12,6 +15,7 @@ public class View {
 
 	// Main class representing the console-based view
 	public static void main(String[] args) {
+		System.out.println("Welcome to Bank Management");
 		// Scanner for user input
 		Scanner myInput = new Scanner(System.in);
 		// Controller instance for handling business logic
